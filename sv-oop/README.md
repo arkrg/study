@@ -8,7 +8,7 @@
 | Day | 주제 | 상태 |
 |---|---|---|
 | [Day 1](day01/notes.md) | 핸들과 객체 | ✅ |
-| Day 2 | 복사, static, this, 접근 제어 | |
+| Day 2 | 복사, static, this, 접근 제어 | ✅ |
 | Day 3 | 상속과 생성자 체인 | |
 | Day 4 | virtual, 다형성, $cast | |
 | Day 5 | virtual class, 상속 vs 합성 | |
