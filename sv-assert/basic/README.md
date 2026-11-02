@@ -71,10 +71,10 @@ assert property ((@posedge pclk) (presetn == 0) |-> ((psel || penable) == 0));
 |Re-Active| TB | 검증 로직 처리| 결과처리: Assertion 실패로그 출력 및 TB 코드 실행 |
 |Postponed| 시뮬레이터 | 타임슬롯 종료 | 로그출력 |
 
-### $sample()
+### $sampled()
 
 평가시점의 값을 찍어준다
 
 Assertion은 preponed 영역 값을 샘플하고, 그 값이 규칙을 어겼는지 평가는 Observed 영역에서 진행한다
 흔히쓰는 $display는 Re-active 영역에서 값을 보여주므로 #0 딜레이 이후 값을 보여준다(클럭 에지 다음)
-따라서 아직 평가되지 않은 값이므로,  assertion이 어떤 값으로 어겼는지 확인하고 싶다면 $sample()
+따라서 아직 평가되지 않은 값이므로,  assertion이 어떤 값으로 어겼는지 확인하고 싶다면 $sampled() 사용하기
