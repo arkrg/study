@@ -2,7 +2,7 @@
 
 - Concurrent Assertion
 - SystemVerilog Region
-- $sample()
+- $sampled()
 - Vacuous Pass
 - [ ] Assertion Coverage
 

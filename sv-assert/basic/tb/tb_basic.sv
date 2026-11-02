@@ -1,4 +1,13 @@
-module tb ();
+interface scr_if (
+    input pclk,
+    input presetn
+);
+  logic penable;
+  logic psel;
+
+endinterface
+
+module tb_basic ();
   logic pclk, presetn;
   logic penable, psel;
   initial {pclk, penable, psel} = 0;
