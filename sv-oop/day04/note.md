@@ -3,16 +3,19 @@
 - 부모 타입 핸들은 자식 타입 객체를 가리킬 수 있음
 - 가리키는 자식 객체에 따라 같은 메소드를 호출해도 다른 동작이 가능한 특성
 
-!> [!NOTE] UVM 안에서
-
+> [!NOTE] UVM 안에서
+>
 > factory override로 driver를 error_driver로 바꿔 env를 수정하지 않고도 테스트를 할 수 있음
 
-!> [!NOTE] 지난시간 복습
-
-[Child 핸들, c] ──► [Child 객체]
-|....................Child::show() : 자식에서 정의
-|....................Base::show() : 부모에서 정의
-c.show()는 Child::show()를 실행
+> [!NOTE] 지난시간 복습
+>
+> ```shell
+> [Child 핸들, c] ──► [Child 객체]
+>                     Child::show() : 자식에서 정의
+>                     Base::show() : 부모에서 정의
+> ```
+>
+> c.show()는 Child::show()를 실행
 
 ## Virtual Method
 
