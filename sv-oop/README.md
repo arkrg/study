@@ -17,6 +17,7 @@
 
 ## tree
 
+```shell
 .
 ├── day0[1-7]
 │   ├── Makefile
@@ -27,6 +28,7 @@
 │   ├── p3_\*.sv
 │   ├── p4_\*.sv
 │   └── p5_\*.sv
+```
 
 ## Makefile 실행방법
 
