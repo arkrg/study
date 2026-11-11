@@ -19,8 +19,8 @@
 
 ```shell
 .
+├── Makefile
 ├── day0[1-7]/
-│   ├── Makefile
 │   ├── note.md
 │   └── src/
 │   ├── p1_*.sv
@@ -33,6 +33,5 @@
 ## Makefile 실행방법
 
 ```shell
-cd day04          # 예시로 day01,
-make PN = p1 run  # src/p1_*.sv 파일이 실행됨
+# make DAY=01 PN = 1 run  # day01/src/p1_*.sv 파일이 실행됨
 ```
